@@ -1,4 +1,4 @@
-if(game.CoreGui:FindFirstChild("uiui") then game.CoreGui.uiui:Destroy() wait(1) end
+if(game.CoreGui:FindFirstChild("uiui") ~= nil) then game.CoreGui.uiui:Destroy() wait(1) end
   
   
   --load the new style
