@@ -4,7 +4,7 @@ if(game.CoreGui:FindFirstChild("uiui") ~= nil) then game.CoreGui.uiui:Destroy() 
   --load the new style
   
   
-  
+  print("loading gui.")
   
   
   
